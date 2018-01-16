@@ -1,0 +1,51 @@
+body{
+	background-color: #12345a;
+	margin: 0;
+}
+
+header{
+	background-color: yellow;
+	text-align: center;
+	font-size: 18px;
+	color: brown; 
+	width: max-width;
+	height: 50px;
+}
+div{
+	width: 330px;
+	margin-top: 50px;
+}
+button{
+	background-color: #9ACD32;
+	border: none;
+}
+.quote{
+	position: absolute;
+	margin-left: 10%;
+	color: red;
+}
+.weather{
+	position: absolute;
+	margin-left: 35%;
+	color: green;
+}
+.pomodoro{
+	position: absolute;
+	margin-left: 60%;
+	background-image: url("https://blog.particle.io/uploads/pomodoro%20shrunk.png");
+	background-repeat: no-repeat;
+	background-position-x:44%; 
+	height: 400px;
+	color: rgb(0,0,255);
+}
+.doStart{
+	margin-left: 60%;
+	border-radius: 30%;
+}
+.reset{
+	border-radius: 30%;
+}
+p{
+	margin-left: 0%;
+	word-wrap: break-word;
+}
